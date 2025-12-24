@@ -15,7 +15,7 @@ app, rt = fast_app()
 register_routes(rt)
 
 
-def main(log_root: str = "", server_port: int = 7860):
+def main(log_root: str = "", server_port: int = 8760):
     """Launch the log viewer application."""
     log_root_state = get_log_root_state()
     if log_root:
@@ -35,5 +35,5 @@ if __name__ == "__main__":
     import sys
 
     log_root = sys.argv[1] if len(sys.argv) > 1 else ""
-    port = int(sys.argv[2]) if len(sys.argv) > 2 else 7860
+    port = int(sys.argv[2]) if len(sys.argv) > 2 else 8760
     main(log_root=log_root, server_port=port)

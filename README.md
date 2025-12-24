@@ -100,7 +100,7 @@ Parameters:
 uv run mw logs view --log_dir traj_logs/qwen3_vl_logs
 ```
 
-Opens an interactive web-based visualization at `http://localhost:7860` to explore task trajectories and results.
+Opens an interactive web-based visualization at `http://localhost:8760` to explore task trajectories and results.
 
 ---
 

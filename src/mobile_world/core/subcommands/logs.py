@@ -33,8 +33,8 @@ def configure_parser(subparsers: argparse._SubParsersAction) -> None:
     view_parser.add_argument(
         "--port",
         type=int,
-        default=7860,
-        help="Port for the viewer (default: 7860)",
+        default=8760,
+        help="Port for the viewer (default: 8760)",
     )
 
 
